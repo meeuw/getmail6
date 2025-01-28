@@ -40,5 +40,5 @@ jobs:
           sed -i -e "s/name.*=.*getmail6./name = 'getmail'/g" setup.py
           make dist
 
-      - name: Publish package distributions to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
+      #- name: Publish package distributions to PyPI
+      #  uses: pypa/gh-action-pypi-publish@release/v1
